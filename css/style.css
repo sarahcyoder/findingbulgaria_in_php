@@ -1,0 +1,88 @@
+/* Primary document selectors and rules */
+body { 
+	background-color: goldenrod;
+ 	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Verdana, Arial, Helvetical, sans-serif;
+	font-weight:bold;
+}
+
+a:link {
+	color: #480607;
+}
+a:visited {
+	color: #675c47;
+}
+
+li {
+	font-weight:bold;
+}
+
+.cutline {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#mainbody {
+	background-color: white;
+	padding: 15px 15px 15px 15px;
+	margin: 10px 0px;
+	border-radius: 5px;
+}
+
+img {
+	border: 3px #480607 solid;
+}
+
+/* header */
+
+#header {
+	background-color: #480607;
+	background-image: url(../img/bulgaria-goldenrod.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	color: white;
+	text-align: left;
+}
+
+/* Nav */
+.navig {
+background-color:#480607;
+border-color:#480607;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+ 	padding: 15px;
+}
+
+
+/* Footer */
+
+#footer {
+	background-color: #480607;
+	color: white;
+	text-align: center;
+	padding: 10px;
+  	font-size: 75%;
+	border-radius: 5px;
+}
+
+#footer a:link {
+	color: goldenrod;
+}
+
+
+/* Travel page */
+
+.travel {
+	font-weight:bold;
+}
+
